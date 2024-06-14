@@ -20,7 +20,7 @@ class ScreenC extends StatelessWidget {
             child: ElevatedButton(
               child: const Text('GOTO BACK'),
               onPressed: () {
-                AutoRouter.of(context).maybePop();
+                AutoRouter.of(context).pop();
               },
             ),
           ),
